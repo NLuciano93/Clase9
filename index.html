@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<h1>CHAT</h1>
+	<input id="mensaje-persona-1" type="text">
+
+	<!--input de formularios para obtenerlos necesita .value !-->
+		
+	<button onclick="mostrarMensaje(document.getElementById('mensaje-persona-1').value);" id="botonpersona1" type="button" >Enviar texto</button>
+	<button onclick="mostrarimagen('emoticon1.png')" type="button">Enviar imagen</button>
+	<br>
+
+	<input id="mensaje-persona-2" type="text">
+
+	<button onclick="mostrarMensaje(document.getElementById('mensaje-persona-2').value);" id="botonpersona2" type="button" >Enviar texto</button>
+	<button onclick="mostrarimagen('emoticon2.png')" type="button">Enviar imagen</button>
+	<div id="conversacion">
+	
+	
+
+	</div>
+
+	<script>
+		function mostrarimagen (nombreArchivo){
+				document.getElementById('conversacion').innerHTML+='<p><img src="' + nombreArchivo + '" alt=""></p>';
+		}
+
+		function mostrarMensaje(mensaje){
+			document.getElementById('conversacion').innerHTML+= "<p>"+mensaje+"</p>";
+		}
+
+		/*function suma(num1,num2){
+			
+			alert(num1+num2);
+		}
+		suma(2, 5);	*/
+		
+
+	</script>
+	
+</body>
+</html>
