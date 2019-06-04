@@ -1,0 +1,154 @@
+#conversacion{
+	background-color: white;
+	width: 500px;
+	height: 550px;
+	margin: auto;
+	/*padding-top: 30px;*/
+	overflow: auto;
+
+}
+#texto{
+	background-color: white;
+	width: 500px;
+	height: 650px;
+	position: relative;
+	margin: auto;
+	padding-top: 0px;
+
+}
+
+#botonpersona1{
+	float:right;
+	/*position: absolute;*/
+	right:0px;
+	bottom:0;
+	background: rgb(4,150,213);
+	color:white;
+	transition:all 300ms;
+	height:30px;
+}
+#botonpersona1:hover{
+	background: rgb(28,200,190);
+	transition:all 300ms;
+}
+#botonimagen1{
+	float:right;
+	/*position: absolute;*/
+	right:0px;
+	bottom:0;
+	background: rgb(4,150,213);
+	color:white;
+	height:30px;
+	transition:all 300ms;
+}
+#botonimagen1:hover{
+	background: rgb(28,200,190);
+	transition:all 300ms;
+}
+
+#mensaje-persona-1{
+	float:right;
+	width: 50%;
+	/*position: absolute;*/
+	right:0px;
+	bottom:0;
+	margin-right: 10px;
+	height:25px;
+}
+p{
+	margin-top: 0;
+	padding-left: 10px;
+	padding-top: 0;
+}
+
+#celular1{
+	background-color: black;
+	width: 550px;
+	height: 750px;
+	padding-top: 40px;
+	border-radius: 8px;
+	float:left;
+
+}
+#celular2{
+	background-color: black;
+	width: 550px;
+	height: 750px;
+	padding-top: 40px;
+	border-radius: 8px;
+	float: right;
+
+}
+
+#texto2{
+	background-color: white;
+	width: 500px;
+	height: 650px;
+	position: relative;
+	margin: auto;
+	padding-top: 0px;
+
+}
+
+#botonpersona2{
+	float:right;
+	/*position: absolute;*/
+	left:0px;
+	bottom:0;
+	background: rgb(4,150,213);
+	color:white;
+	height:30px;
+	transition:all 300ms;
+}
+#botonpersona2:hover{
+	background: rgb(28,200,190);
+	transition:all 300ms;
+}
+
+#botonimagen2{
+	float:right;
+	/*position: absolute;*/
+	left:0px;
+	bottom:0;
+	background: rgb(4,150,213);
+	color:white;
+	height:30px;
+	transition:all 300ms;
+}
+#botonimagen2:hover{
+	background: rgb(28,200,190);
+	transition:all 300ms;
+}
+
+#mensaje-persona-2{
+	float:right;
+	width: 50%;
+	/*position: absolute;*/
+	left:0px;
+	bottom:0;
+	margin-right: 10px;
+	height:25px;
+}
+#conversacion2{
+	background-color: white;
+	width: 500px;
+	height: 550px;
+	margin: auto;
+	/*padding-top: 30px;*/
+	overflow: auto;
+}
+
+#foto1{
+	width: 40px;
+	height: 40px;
+	padding: 0;
+	margin: 0;
+	border-radius: 30px;
+}
+#foto2{
+	width: 40px;
+	height: 40px;
+	padding: 0;
+	margin: 0;
+	border-radius: 30px;
+}

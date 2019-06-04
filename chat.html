@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>chat celular</title>
+	<link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+	<!--<input id="mensaje-persona-1" type="text">!-->
+
+	<!--input de formularios para obtenerlos necesita .value !-->
+		
+		
+		
+
+		<div id= celular1>
+			
+			<div id=texto>
+				<img id=foto1 src="foto1.jpg" alt=""> <span>CARLA</span>
+				<div id="conversacion">
+
+				</div>
+					
+					
+					<button onclick="mostrarimagen('emoticon1.png')" id="botonimagen1" type="button">Enviar imagen</button>
+					<button onclick="mostrarMensaje(document.getElementById('mensaje-persona-1').value);" id="botonpersona1" type="button" >Enviar texto</button>
+					<input id="mensaje-persona-1" type="text">
+
+			</div>
+		
+		</div>
+
+
+		<div id= celular2>
+			<div id=texto2>
+				<img id=foto2 src="foto2.jpg" alt="">  <span>CARLO</span>
+				<div id="conversacion2">
+
+				</div>
+					
+					<button onclick="mostrarimagen('emoticon2.png')" id="botonimagen2" type="button">Enviar imagen</button>
+					<button onclick="mostrarMensaje(document.getElementById('mensaje-persona-2').value);" id="botonpersona2" type="button" >Enviar texto</button>
+					<input id="mensaje-persona-2" type="text">
+			</div>
+		
+		</div>
+
+		
+
+
+	
+	<script>
+		function mostrarimagen (nombreArchivo){
+				document.getElementById('conversacion').innerHTML+='<p><img src="' + nombreArchivo + '" alt=""></p>';
+				document.getElementById('conversacion2').innerHTML+='<p><img src="' + nombreArchivo + '" alt=""></p>';
+		}
+
+		function mostrarMensaje(mensaje){
+			document.getElementById('conversacion').innerHTML+= "<p>"+mensaje+"</p>";
+			document.getElementById('conversacion2').innerHTML+= "<p>"+mensaje+"</p>";
+		}
+	</script>
+	
+</body>
+</html>
